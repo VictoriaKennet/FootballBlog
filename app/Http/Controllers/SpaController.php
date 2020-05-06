@@ -10,4 +10,12 @@ class SpaController extends Controller
     {
         return view('index');
     }
+    public function login()
+    {
+        return view('login');
+    }
+    public function admin()
+    {
+        return view('admin');
+    }
 }
